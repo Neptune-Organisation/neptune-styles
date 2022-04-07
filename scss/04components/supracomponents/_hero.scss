@@ -1,0 +1,14 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+  &__content {
+    z-index: 100;
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+    background-color: white;
+    padding: 3em;
+  }
+}

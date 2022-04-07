@@ -1,0 +1,17 @@
+@use "../../01subAtoms/subatoms" as *;
+
+.accordion {
+  width: 80vw;
+
+  &__tab {
+    background-color: palegoldenrod;
+    width: 100%;
+  }
+  &__tab-body-hidden {
+    display: none;
+  }
+
+  &__tab-body-show {
+    display: block;
+  }
+}

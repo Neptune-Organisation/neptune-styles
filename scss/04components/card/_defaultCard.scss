@@ -1,0 +1,45 @@
+@use "../../01subAtoms/subAtoms" as *;
+@use "../../02atoms/atoms" as *;
+
+.card {
+  width: 70vw;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+  margin: 2vh 2vw;
+  @include borderMed;
+
+  &__img {
+    max-height: 100px;
+    max-width: 100px;
+    object-fit: cover;
+  }
+
+  &__text-contain {
+    padding: 1vh 1vw;
+  }
+
+  &__tittle {
+    font-size: $f4;
+    font-weight: 700;
+    color: $primaryCol;
+    margin: 0.5em auto;
+  }
+
+  &__text {
+    font-size: $f3;
+    color: $primaryCol;
+    margin: 1em 0;
+    text-align: center;
+  }
+
+  &__options {
+    display: flex;
+  }
+
+  &__link {
+    margin: 0 2vw;
+  }
+}

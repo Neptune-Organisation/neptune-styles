@@ -1,0 +1,37 @@
+@use "../../01subAtoms/subAtoms" as *;
+
+.toggle-rest {
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: $primaryCol;
+  padding: 0 5px;
+
+  &__btn {
+    background-color: $white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+}
+
+.toggle-active {
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: $primaryCol;
+  padding: 0 5px;
+
+  &__btn {
+    background-color: $white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+}

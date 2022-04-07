@@ -1,0 +1,36 @@
+@use "../01subAtoms/subAtoms" as *;
+
+.layout3 {
+  display: flex;
+  height: 100vh;
+}
+
+.layout3-aside {
+  &__left {
+    background-color: cornflowerblue;
+    /*
+    */
+    min-width: 100px;
+    width: 20vw;
+    max-width: 200px;
+    position: fixed;
+    left: 0;
+    inset: 0 auto 0 0;
+    z-index: -1;
+  }
+
+  &__right {
+    background-color: cadetblue;
+    min-width: 100px;
+    width: 20vw;
+    max-width: 200px;
+    position: fixed;
+    inset: 0 0 0 auto;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+.layout3__body {
+  background-color: coral;
+}

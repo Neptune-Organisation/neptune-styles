@@ -1,0 +1,31 @@
+@use "../01subAtoms/subAtoms" as *;
+
+.btn {
+  :hover {
+    color: $primaryCol;
+  }
+
+  :active {
+    color: $primaryCol;
+    background-color: $primaryCol;
+  }
+
+  :focus {
+    color: $primaryCol;
+    background-color: $primaryCol;
+  }
+}
+
+a {
+  :hover {
+    color: $primaryCol;
+  }
+  :active {
+    color: $primaryCol;
+    background-color: $primaryCol;
+  }
+  :focus {
+    color: $primaryCol;
+    background-color: $primaryCol;
+  }
+}

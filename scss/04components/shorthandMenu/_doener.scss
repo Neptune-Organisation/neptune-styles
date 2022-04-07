@@ -1,0 +1,71 @@
+@use "../../01subAtoms/subatoms" as *;
+
+.doener {
+  &__rest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__rest-line1 {
+    height: 5px;
+    width: 40px;
+    margin: 5px 0;
+    background-color: $primaryCol;
+  }
+
+  &__rest-line2 {
+    height: 5px;
+    width: 30px;
+    margin: 5px 0;
+    background-color: $primaryCol;
+  }
+
+  &__rest-line3 {
+    height: 5px;
+    width: 20px;
+    margin: 5px 0;
+    background-color: $primaryCol;
+  }
+
+  &__rest-navbar {
+    display: none;
+  }
+
+  &__active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__active-line1 {
+    height: 5px;
+    width: 40px;
+    margin: 0;
+    background-color: $primaryCol;
+    transform: translate(0px, 5px) rotate(45deg);
+  }
+
+  &__active-line2 {
+    height: 5px;
+    width: 40px;
+    margin: 0;
+    background-color: $primaryCol;
+    display: none;
+  }
+
+  &__active-line3 {
+    height: 5px;
+    width: 40px;
+    margin: 0;
+    background-color: $primaryCol;
+    transform: translate(0px, 0px) rotate(-45deg);
+  }
+
+  &__active-navbar {
+    display: block;
+    margin-top: 3.5em;
+  }
+}

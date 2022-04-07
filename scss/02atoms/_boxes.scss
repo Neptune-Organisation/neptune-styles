@@ -1,0 +1,165 @@
+@use "../01subAtoms/subAtoms" as *;
+@use "./box-sizes" as *;
+
+/* SQUARE */
+@mixin smallSquarecontainer{
+    width: $containerSmall;
+    aspect-ratio: $square;
+    object-fit: $fit;
+}
+
+@mixin medSquarecontainer{
+    width: $containerMed;
+    aspect-ratio: $square;
+    object-fit: $fit;
+}
+
+@mixin bigSquarecontainer{
+    width: $containerBig;
+    aspect-ratio: $square;
+    object-fit: $fit;
+}
+
+@mixin smallFourThreecontainer{
+    width: $containerSmall;
+    aspect-ratio: $fourThree;
+    object-fit: $fit;
+}
+
+@mixin medFourThreecontainer{
+    width: $containerMed;
+    aspect-ratio: $fourThree;
+    object-fit: $fit;
+}
+
+@mixin bigFourThreecontainer{
+    width: $containerBig;
+    aspect-ratio: $fourThree;
+    object-fit: $fit;
+}
+
+@mixin smallThreeFourcontainer{
+    width: $containerSmall;
+    aspect-ratio: $threeFour;
+    object-fit: $fit;
+}
+
+@mixin medThreeFourcontainer{
+    width: $containerMed;
+    aspect-ratio: $threeFour;
+    object-fit: $fit;
+}
+
+@mixin bigThreeFourcontainer{
+    width: $containerBig;
+    aspect-ratio: $threeFour;
+    object-fit: $fit;
+}
+
+@mixin smallSixteenNine{
+    width: $containerSmall;
+    aspect-ratio: $sixteenNine;
+    object-fit: $fit;
+}
+
+@mixin medSixteenNine{
+    width: $containerMed;
+    aspect-ratio: $sixteenNine;
+    object-fit: $fit;
+}
+
+@mixin bigSixteenNine{
+    width: $containerBig;
+    aspect-ratio: $sixteenNine;
+    object-fit: $fit;
+}
+
+@mixin smallNineSixteen{
+    width: $containerSmall;
+    aspect-ratio: $nineSixteen;
+    object-fit: $fit;
+}
+
+@mixin medNineSixteen{
+    width: $containerMed;
+    aspect-ratio: $nineSixteen;
+    object-fit: $fit;
+}
+
+@mixin bigNineSixteen{
+    width: $containerBig;
+    aspect-ratio: $nineSixteen;
+    object-fit: $fit;
+}
+
+@mixin halfSquare{
+    width: $containerHalf;
+    aspect-ratio: $square;
+    object-fit: $fit;
+}
+
+@mixin halfFourThree{
+    width: $containerHalf;
+    aspect-ratio: $fourThree;
+    object-fit: $fit;
+}
+
+@mixin halfThreeFour{
+    width: $containerHalf;
+    aspect-ratio: $threeFour;
+    object-fit: $fit;
+}
+
+@mixin halfNineSixteen{
+    width: $containerHalf;
+    aspect-ratio: $nineSixteen;
+    object-fit: $fit;
+}
+
+@mixin thirdNineSixteen{
+    width: $containerThird;
+    aspect-ratio: $nineSixteen;
+    object-fit: $fit;
+}
+
+@mixin halfSixteenNine{
+    width: $containerHalf;
+    aspect-ratio: $sixteenNine;
+    object-fit: $fit;
+}
+
+
+@mixin smallRound {
+    width: $containerSmall;
+    aspect-ratio: $square;
+    object-fit: $fit;
+    border-radius: 50%;
+}
+
+@mixin medRound {
+    width: $containerMed;
+    aspect-ratio: $square;
+    object-fit: $fit;
+    border-radius: 50%;
+}
+
+@mixin bigRound {
+    width: $containerBig;
+    aspect-ratio: $square;
+    object-fit: $fit;
+    border-radius: 50%;
+}
+
+@mixin buttonBase {
+    /* width: $containerBig;
+    aspect-ratio: $square; */
+    border-radius: $border-radius;
+}
+
+@mixin formBase {
+    width: $containerBig;
+}
+
+@mixin inputFieldBase {
+    width: $containerBig;
+}

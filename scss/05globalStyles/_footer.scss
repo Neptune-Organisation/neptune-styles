@@ -1,0 +1,19 @@
+@use "../01subAtoms/subAtoms" as *;
+
+footer {
+  position: fixed;
+  inset: auto 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5vh 5vw;
+  background-color: $grey1;
+}
+
+.footer {
+  &__navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

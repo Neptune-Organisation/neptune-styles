@@ -1,0 +1,16 @@
+@use "../01subAtoms/subAtoms" as *;
+
+.layout2 {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+  outline: 1px solid $primaryCol;
+  height: 100vh;
+}
+
+.layout2-aside {
+  background-color: cornflowerblue;
+}
+
+.layout2-body {
+  background-color: coral;
+}

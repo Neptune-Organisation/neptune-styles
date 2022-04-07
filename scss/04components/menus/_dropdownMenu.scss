@@ -1,0 +1,12 @@
+@use "../../01subAtoms/subatoms" as *;
+.dropdown-menu {
+  width: fit-content;
+
+  &__select {
+    padding: 0;
+  }
+
+  &__option {
+    padding: 0;
+  }
+}

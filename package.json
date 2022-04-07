@@ -1,0 +1,23 @@
+{
+  "name": "scss-library",
+  "version": "1.0.0",
+  "description": "scss-library for Neptune",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch ./src/scss/main.scss ./public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neptune-Organisation/scss-library.git"
+  },
+  "keywords": [],
+  "author": "Albert Löwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neptune-Organisation/scss-library/issues"
+  },
+  "homepage": "https://github.com/Neptune-Organisation/scss-library#readme",
+  "dependencies": {
+    "sass": "^1.50.0"
+  }
+}

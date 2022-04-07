@@ -1,0 +1,24 @@
+@use "../../01subAtoms/subAtoms" as *;
+@use "../../02atoms/atoms" as *;
+
+.default-input {
+  display: flex;
+  justify-content: space-between;
+  @include formBase;
+  
+  &__input {
+    @include borderThin;
+    @include inputFieldBase;
+    display: block;
+  }
+  
+  &__label {
+    margin-top: 0.5em;
+    /* display: block; */
+  }
+
+  &__textArea {
+    @include borderThin;
+    width: 100%;
+  }
+}

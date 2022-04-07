@@ -1,0 +1,20 @@
+@use "../../01subAtoms/subAtoms" as *;
+.header-navbar {
+  &__rest {
+    background-color: white;
+  }
+
+  &__rest__navbar {
+    display: none;
+  }
+
+  &__active {
+    background-color: white;
+    display: flex;
+  }
+
+  &__active__navbar {
+    display: flex;
+    flex-direction: column;
+  }
+}

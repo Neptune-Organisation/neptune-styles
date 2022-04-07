@@ -1,0 +1,69 @@
+@use "../../01subAtoms/subAtoms" as *;
+@use "../../02atoms/atoms" as *;
+
+.employeecard {
+  /* border: $borderMed solid $primaryCol; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include borderThin;
+
+  &__container {
+    width: 10vw;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 95%);
+    display: grid;
+    place-items: center;
+    padding: 2vh 2vw;
+  }
+
+  &__img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 1em 0;
+  }
+
+  &__name {
+    font-size: $f4;
+    font-weight: 700;
+    color: $primaryCol;
+    text-align: center;
+  }
+
+  &__position {
+    font-size: $f2;
+    color: $primaryColLight;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  // <script src="https://kit.fontawesome.com/8760c187cc.js" crossorigin="anonymous"></script>
+
+  &__phone {
+    color: $primaryCol;
+    margin: 0.5em 0;
+    font-size: $f3;
+    text-align: left;
+    &:before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f095";
+      margin-right: 0.5em;
+    }
+  }
+
+  &__mail {
+    color: $primaryCol;
+    font-size: $f3;
+    text-align: center;
+
+    &:before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f0e0";
+      margin-right: 0.5em;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@use "../../01subAtoms/subAtoms" as *;
+
+.datepicker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+.datepicker__text {
+  text-align: center;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  /* color: rgba(0, 0, 0, 0);
+    background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat;
+    opacity: 1;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-width: thin; */
+}

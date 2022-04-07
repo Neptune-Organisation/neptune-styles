@@ -1,0 +1,11 @@
+@use "../01subAtoms/colors" as *;
+
+header {
+  /* position: fixed;
+  inset: 0 0 auto 0; */
+  padding: 2.5vh 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $grey3;
+}

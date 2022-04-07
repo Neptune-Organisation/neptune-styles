@@ -1,0 +1,91 @@
+@use "../../01subAtoms/subAtoms" as *;
+@use "../../02atoms/atoms" as *;
+
+.productcard {
+  &__container {
+    max-width: 15vw;
+    @include borderMed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 1px solid;
+    padding: 1.5vh 0;
+  }
+
+  &__name {
+    font-size: $f4;
+    color: $primaryCol;
+    font-weight: 700;
+  }
+
+  &__img {
+    border-radius: 10px;
+    height: 33%;
+    width: 90%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  &__tag-container {
+    display: flex;
+  }
+
+  &__tag {
+    padding: 1em 1.5em;
+    color: white;
+    border-radius: 20px;
+    background-color: $primaryCol;
+
+    &-special {
+      background-color: $primaryCol;
+    }
+  }
+
+  &__title {
+    font-size: $f4;
+    font-weight: 700;
+    color: $primaryCol;
+  }
+
+  &__price {
+    font-size: $f4;
+    font-weight: 700;
+    color: $primaryCol;
+
+    &:after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f153";
+      margin-left: 0.5em;
+    }
+  }
+
+  &__size-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__size {
+    font-size: $f3;
+    color: $primaryCol;
+    padding: 1em;
+    border-radius: 10px;
+    margin: 0 1.5em;
+
+    &-selected {
+      color: $primaryCol;
+      background-color: $primaryCol;
+    }
+  }
+
+  //font awesome
+
+  &__order {
+    color: $primaryCol;
+    font-size: $f3;
+    background-color: $primaryCol;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+  }
+}

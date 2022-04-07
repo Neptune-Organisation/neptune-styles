@@ -1,0 +1,16 @@
+@use "../01subAtoms/subAtoms" as *;
+.layout1 {
+  border: 2px solid $primaryCol;
+  padding: 2em;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__test {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    margin: 5px;
+  }
+}

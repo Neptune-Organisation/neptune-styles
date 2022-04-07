@@ -1,0 +1,25 @@
+@use "./boxes" as *;
+
+.portrait-vertical {
+    /* @include halfNineSixteen; */
+    @include thirdNineSixteen;
+}
+
+.portrait-horizontal {
+    @include bigSixteenNine;
+}
+
+.med-squareImage{
+    @include medSquarecontainer
+}
+
+.big-squareImage{
+    @include bigSquarecontainer
+}
+
+.hero__image{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    position: absolute;
+}

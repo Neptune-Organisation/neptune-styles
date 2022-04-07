@@ -1,0 +1,12 @@
+@use "../../01subAtoms/subAtoms" as *;
+@use "../../02atoms/atoms" as *;
+
+.contact-form {
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10vw;
+    /* align-items: center; */
+  }
+}

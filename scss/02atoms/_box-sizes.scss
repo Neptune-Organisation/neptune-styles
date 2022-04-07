@@ -1,0 +1,24 @@
+@use "../01subAtoms/subAtoms" as *;
+
+
+
+/* SIZE */
+$containerMini : $size / 2;
+$containerSmall : $size * 2;
+$containerHalf : 50vw;
+$containerThird : 30vw;
+$containerMed : $size * 8;
+$containerBig : $size * 32;
+$containerEnorm : $size * 64;
+
+/* ASPECT RATIO */
+
+$square : 1/1;
+$fourThree : 4/3;
+$sixteenNine : 16/9;
+$threeFour : 3/4;
+$nineSixteen : 9/16;
+
+/* CONTENT */
+
+$fit: cover;

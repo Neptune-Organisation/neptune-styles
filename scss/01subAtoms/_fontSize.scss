@@ -1,0 +1,18 @@
+/* @use "./root-fontSize";
+
+@function fontSize ($fs) {
+    @return $fs * 4 / 3
+}
+
+to implement in the future. Question: font size depending on the screen width, or on the :root value?
+ */
+$f01: clamp(0.9rem, 1vw, 1.2rem);
+$f1: clamp(1.2rem, 1.12vw, 1.5rem);
+$f2: clamp(1.6rem, 1.25vw, 2rem);
+$f3: clamp(2rem, 4vw, 2.4rem); /* paragraph + h3 */
+$f4: clamp(2.8rem, 5vw, 3.2rem); /* h2 */
+$f5: clamp(3.5rem, 6vw, 4.3rem); /* h1 */
+$f6: clamp(5rem, 1.75vw, 6.25rem);
+$f7: clamp(6.7rem, 1.87vw, 7.7rem);
+$f8: clamp(8.9rem, 2vw, 11.1rem);
+$f9: clamp(11.9rem, 2.2vw, 14.9rem);

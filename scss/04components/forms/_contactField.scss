@@ -1,0 +1,11 @@
+.contact-field {
+  &__label {
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+  }
+
+  &__input {
+    max-width: 60vw;
+  }
+}

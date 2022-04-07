@@ -1,0 +1,9 @@
+@use "../../01subAtoms/subAtoms" as *;
+
+.header-name {
+  color: $white;
+  margin: 0;
+  padding: 0.5em 0;
+  max-width: 12ch;
+  line-height: 1.5em;
+}

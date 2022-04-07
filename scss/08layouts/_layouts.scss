@@ -1,0 +1,17 @@
+@use "../01subAtoms/subAtoms" as *;
+@use "./layout1";
+@use "./layout2";
+@use "./layout3";
+@use "./divLayouts/divLayouts";
+
+.test1 {
+  height: 100px;
+  width: 100px;
+  background-color: $primaryCol;
+}
+
+.test2 {
+  height: 100px;
+  width: 100px;
+  background-color: $primaryCol;
+}

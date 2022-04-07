@@ -1,0 +1,10 @@
+@use "../../01subAtoms/subAtoms" as *;
+
+.default-form {
+  padding: 0 5vw;
+  display: block;
+}
+
+.form-input {
+  @include borderThin;
+}

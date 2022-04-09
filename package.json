@@ -1,5 +1,5 @@
 {
-  "name": "scss-library",
+  "name": "@neptune/scss-library",
   "version": "1.0.0",
   "description": "scss-library for Neptune",
   "main": "index.js",
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Neptune-Organisation/scss-library#readme",
   "dependencies": {
     "sass": "^1.50.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/albertleipzig"
+  },
+  "devDependencies": {}
 }

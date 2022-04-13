@@ -1,0 +1,15 @@
+@use "../../01subAtoms/subatoms" as *;
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    padding: 2em;
+    @include borderThin;
+
+    & button {
+        margin-top: 2vh;
+    }
+}

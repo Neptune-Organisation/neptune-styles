@@ -1,11 +1,13 @@
 @use "../../01subAtoms/subatoms" as *;
 .dropdown-menu {
   width: fit-content;
+/*   display: flex;
+  flex-direction: row; */
 
   &__select {
     padding: 0;
   }
-
+  
   &__option {
     padding: 0;
   }

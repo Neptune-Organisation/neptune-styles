@@ -77,12 +77,16 @@
   @include p;
 }
 
-.list {
+li {
+  padding: 0;
+  margin: 0;
+  text-align: left;
   &::before {
     content: "* ";
   }
   @include p;
 }
+
 
 .list-title {
   @include h3

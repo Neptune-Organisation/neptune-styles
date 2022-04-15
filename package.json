@@ -1,27 +1,41 @@
 {
-  "name": "@neptune/scss-library",
+  "name": "neptune-styles",
   "version": "1.0.0",
   "description": "scss-library for Neptune",
   "main": "index.js",
+  "dependencies": {
+    "binary-extensions": "^2.2.0",
+    "anymatch": "^3.1.2",
+    "chokidar": "^3.5.3",
+    "fill-range": "^7.0.1",
+    "glob-parent": "^5.1.2",
+    "braces": "^3.0.2",
+    "immutable": "^4.0.0",
+    "is-extglob": "^2.1.1",
+    "is-binary-path": "^2.1.0",
+    "is-number": "^7.0.0",
+    "is-glob": "^4.0.3",
+    "picomatch": "^2.3.1",
+    "normalize-path": "^3.0.0",
+    "readdirp": "^3.6.0",
+    "rollup": "^2.70.1",
+    "sass": "^1.50.0",
+    "source-map-js": "^1.0.2",
+    "to-regex-range": "^5.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "scss": "sass --watch ./src/scss/main.scss ./public/css/main.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Neptune-Organisation/scss-library.git"
+    "url": "git+https://github.com/Neptune-Organisation/neptune-styles.git"
   },
   "keywords": [],
-  "author": "Albert Löwe",
-  "license": "ISC",
+  "author": "albertleipzig <albertclemvill@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/Neptune-Organisation/scss-library/issues"
+    "url": "https://github.com/Neptune-Organisation/neptune-styles/issues"
   },
-  "homepage": "https://github.com/Neptune-Organisation/scss-library#readme",
-  "dependencies": {
-    "sass": "^1.50.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/albertleipzig"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/Neptune-Organisation/neptune-styles#readme"
 }

@@ -1,12 +1,14 @@
 @use "./boxes" as *;
 
-.portrait-vertical {
-    /* @include halfNineSixteen; */
-    @include thirdNineSixteen;
+.hero__image{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    position: absolute;
 }
 
-.portrait-horizontal {
-    @include bigSixteenNine;
+.small-squareImage{
+    @include smallSquarecontainer
 }
 
 .med-squareImage{
@@ -17,9 +19,91 @@
     @include bigSquarecontainer
 }
 
-.hero__image{
-    width: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    position: absolute;
+.small-43Image{
+    @include smallFourThreecontainer
+}
+
+.med-43Image{
+    @include medFourThreecontainer
+}
+
+.big-43Image{
+    @include bigFourThreecontainer
+}
+
+.small-34Image{
+    @include smallThreeFourcontainer
+}
+
+.med-34Image{
+    @include medThreeFourcontainer
+}
+
+.big-34Image{
+    @include bigThreeFourcontainer
+}
+
+.small-69Image{
+    @include smallSixteenNine
+}
+
+.med-69Image{
+    @include medSixteenNine
+}
+
+.big-69Image{
+    @include bigSixteenNine
+}
+
+.small-96Image{
+    @include smallNineSixteen
+}
+
+.med-96Image{
+    @include medNineSixteen
+}
+
+.big-96Image{
+    @include bigNineSixteen
+}
+
+.halfSquareImage{
+    @include halfSquare
+}
+
+.half-43Image{
+    @include halfFourThree
+}
+
+.half-34Image{
+    @include halfThreeFour
+}
+
+.half-69Image{
+    @include halfSixteenNine
+}
+
+.half-96Image{
+    @include halfNineSixteen
+}
+
+.small-roundImage{
+    @include smallRound
+}
+
+.med-roundImage{
+    @include medRound
+}
+
+.big-roundImage{
+    @include bigRound
+}
+
+.portrait-vertical {
+    /* @include halfNineSixteen; */
+    @include thirdNineSixteen;
+}
+
+.portrait-horizontal {
+    @include bigSixteenNine;
 }

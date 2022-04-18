@@ -4,148 +4,148 @@
 /* SQUARE */
 @mixin smallSquarecontainer{
     width: $containerSmall;
-    aspect-ratio: $square;
+    @include square;
     object-fit: $fit;
 }
 
 @mixin medSquarecontainer{
     width: $containerMed;
-    aspect-ratio: $square;
+    @include square;
     object-fit: $fit;
 }
 
 @mixin bigSquarecontainer{
     width: $containerBig;
-    aspect-ratio: $square;
+    @include square;
     object-fit: $fit;
 }
 
 @mixin smallFourThreecontainer{
     width: $containerSmall;
-    aspect-ratio: $fourThree;
+    @include fourThree;
     object-fit: $fit;
 }
 
 @mixin medFourThreecontainer{
     width: $containerMed;
-    aspect-ratio: $fourThree;
+    @include fourThree;
     object-fit: $fit;
 }
 
 @mixin bigFourThreecontainer{
     width: $containerBig;
-    aspect-ratio: $fourThree;
+    @include fourThree;
     object-fit: $fit;
 }
 
 @mixin smallThreeFourcontainer{
     width: $containerSmall;
-    aspect-ratio: $threeFour;
+    @include threeFour;
     object-fit: $fit;
 }
 
 @mixin medThreeFourcontainer{
     width: $containerMed;
-    aspect-ratio: $threeFour;
+    @include threeFour;
     object-fit: $fit;
 }
 
 @mixin bigThreeFourcontainer{
     width: $containerBig;
-    aspect-ratio: $threeFour;
+    @include threeFour;
     object-fit: $fit;
 }
 
 @mixin smallSixteenNine{
     width: $containerSmall;
-    aspect-ratio: $sixteenNine;
+    @include sixteenNine;
     object-fit: $fit;
 }
 
 @mixin medSixteenNine{
     width: $containerMed;
-    aspect-ratio: $sixteenNine;
+    @include sixteenNine;
     object-fit: $fit;
 }
 
 @mixin bigSixteenNine{
     width: $containerBig;
-    aspect-ratio: $sixteenNine;
+    @include sixteenNine;
     object-fit: $fit;
 }
 
 @mixin smallNineSixteen{
     width: $containerSmall;
-    aspect-ratio: $nineSixteen;
+    @include nineSixteen;
     object-fit: $fit;
 }
 
 @mixin medNineSixteen{
     width: $containerMed;
-    aspect-ratio: $nineSixteen;
+    @include nineSixteen;
     object-fit: $fit;
 }
 
 @mixin bigNineSixteen{
     width: $containerBig;
-    aspect-ratio: $nineSixteen;
+    @include nineSixteen;
     object-fit: $fit;
 }
 
 @mixin halfSquare{
     width: $containerHalf;
-    aspect-ratio: $square;
+    @include square;
     object-fit: $fit;
 }
 
 @mixin halfFourThree{
     width: $containerHalf;
-    aspect-ratio: $fourThree;
+    @include fourThree;
     object-fit: $fit;
 }
 
 @mixin halfThreeFour{
     width: $containerHalf;
-    aspect-ratio: $threeFour;
+    @include threeFour;
     object-fit: $fit;
 }
 
 @mixin halfNineSixteen{
     width: $containerHalf;
-    aspect-ratio: $nineSixteen;
+    @include nineSixteen;
     object-fit: $fit;
 }
 
 @mixin thirdNineSixteen{
     width: $containerThird;
-    aspect-ratio: $nineSixteen;
+    @include nineSixteen;
     object-fit: $fit;
 }
 
 @mixin halfSixteenNine{
     width: $containerHalf;
-    aspect-ratio: $sixteenNine;
+    @include sixteenNine;
     object-fit: $fit;
 }
 
 
 @mixin smallRound {
     width: $containerSmall;
-    aspect-ratio: $square;
+    @include square;
     object-fit: $fit;
     border-radius: 50%;
 }
 
 @mixin medRound {
     width: $containerMed;
-    aspect-ratio: $square;
+    @include square;
     object-fit: $fit;
     border-radius: 50%;
 }
 
 @mixin bigRound {
     width: $containerBig;
-    aspect-ratio: $square;
+    @include square;
     object-fit: $fit;
     border-radius: 50%;
 }

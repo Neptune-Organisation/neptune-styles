@@ -3,8 +3,8 @@
 
 
 /* SIZE */
-$containerMini : $size / 2;
-$containerSmall : $size * 2;
+$containerMini : calc($size / 2);
+$containerSmall : calc($size * 2);
 $containerHalf : 50vw;
 $containerThird : 30vw;
 $containerMed : $size * 8;
@@ -13,12 +13,26 @@ $containerEnorm : $size * 64;
 
 /* ASPECT RATIO */
 
-$square : 1/1;
-$fourThree : 4/3;
-$sixteenNine : 16/9;
-$threeFour : 3/4;
-$nineSixteen : 9/16;
+@mixin square {
+    aspect-ratio: 1 / 1;
+}
 
+@mixin fourThree {
+    aspect-ratio: 4 / 3;
+}
+
+@mixin sixteenNine {
+    aspect-ratio: 16 / 9;
+}
+
+@mixin threeFour {
+    aspect-ratio: 3 / 4;
+}
+
+@mixin nineSixteen {
+    aspect-ratio: 9 / 16;
+} 
+    
 /* CONTENT */
 
 $fit: cover;

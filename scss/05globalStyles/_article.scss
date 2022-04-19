@@ -3,7 +3,7 @@
 .article {
   margin: 5vh 0;
 
-  &__image{
-    @include medRound;
+  &__imageContainer{
+    @include medRoundContainer;
   }
 }

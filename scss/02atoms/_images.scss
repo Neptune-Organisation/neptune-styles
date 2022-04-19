@@ -8,102 +8,149 @@
 }
 
 .small-squareImage{
-    @include smallSquarecontainer
+    @include smallSquareContainer
+}
+
+.third-squareImage{
+    @include thirdSquareContainer
 }
 
 .med-squareImage{
-    @include medSquarecontainer
+    @include medSquareContainer
+}
+
+.half-squareImage{
+    @include halfSquareContainer
 }
 
 .big-squareImage{
-    @include bigSquarecontainer
+    @include bigSquareContainer
+}
+
+.full-squareImage{
+    @include fullSquareContainer
 }
 
 .small-43Image{
-    @include smallFourThreecontainer
+    @include smallFourThreeContainer
+}
+
+.third-43Image{
+    @include thirdFourThreeContainer
 }
 
 .med-43Image{
-    @include medFourThreecontainer
-}
-
-.big-43Image{
-    @include bigFourThreecontainer
-}
-
-.small-34Image{
-    @include smallThreeFourcontainer
-}
-
-.med-34Image{
-    @include medThreeFourcontainer
-}
-
-.big-34Image{
-    @include bigThreeFourcontainer
-}
-
-.small-69Image{
-    @include smallSixteenNine
-}
-
-.med-69Image{
-    @include medSixteenNine
-}
-
-.big-69Image{
-    @include bigSixteenNine
-}
-
-.small-96Image{
-    @include smallNineSixteen
-}
-
-.med-96Image{
-    @include medNineSixteen
-}
-
-.big-96Image{
-    @include bigNineSixteen
-}
-
-.halfSquareImage{
-    @include halfSquare
+    @include medFourThreeContainer
 }
 
 .half-43Image{
-    @include halfFourThree
+    @include halfFourThreeContainer
+}
+
+.big-43Image{
+    @include bigFourThreeContainer
+}
+
+.full-43Image{
+    @include fullFourThreeContainer
+}
+
+.small-34Image{
+    @include smallThreeFourContainer
+}
+
+.third-34Image{
+    @include thirdThreeFourContainer
+}
+
+.med-34Image{
+    @include medThreeFourContainer
 }
 
 .half-34Image{
-    @include halfThreeFour
+    @include halfThreeFourContainer
+}
+
+.big-34Image{
+    @include bigThreeFourContainer
+}
+
+.full-34Image{
+    @include fullThreeFourContainer
+}
+
+.small-69Image{
+    @include smallSixteenNineContainer
+}
+
+.third-69Image{
+    @include thirdSixteenNineContainer
+}
+
+.med-69Image{
+    @include medSixteenNineContainer
 }
 
 .half-69Image{
-    @include halfSixteenNine
+    @include halfSixteenNineContainer
+}
+
+.big-69Image{
+    @include bigSixteenNineContainer
+}
+
+.full-69Image{
+    @include fullSixteenNineContainer
+}
+
+.small-96Image{
+    @include smallNineSixteenContainer
+}
+
+.third-96Image{
+    @include thirdNineSixteenContainer
+}
+
+.med-96Image{
+    @include medNineSixteenContainer
 }
 
 .half-96Image{
-    @include halfNineSixteen
+    @include halfNineSixteenContainer
+}
+
+.big-96Image{
+    @include bigNineSixteenContainer
+}
+
+.full-96Image{
+    @include fullNineSixteenContainer
 }
 
 .small-roundImage{
-    @include smallRound
+    @include smallRoundContainer
+}
+
+.third-roundImage{
+    @include thirdRoundContainer
 }
 
 .med-roundImage{
-    @include medRound
+    @include medRoundContainer
+}
+
+.half-roundImage{
+    @include halfRoundContainer
 }
 
 .big-roundImage{
-    @include bigRound
+    @include bigRoundContainer
 }
 
-.portrait-vertical {
-    /* @include halfNineSixteen; */
-    @include thirdNineSixteen;
+.full-roundImage{
+    @include bigRoundContainer
 }
 
-.portrait-horizontal {
-    @include bigSixteenNine;
+@mixin cardRoundImg {
+    @include thirdRoundContainer
 }

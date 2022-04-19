@@ -2,30 +2,32 @@
 
 .btn {
   :hover {
-    color: $primaryCol;
+    color: $white;
+    background-color: $primaryCol;
   }
 
   :active {
-    color: $primaryCol;
-    background-color: $primaryCol;
+    color: $white;
+    background-color: $grey1;
   }
 
   :focus {
-    color: $primaryCol;
-    background-color: $primaryCol;
+    color: $white;
+    background-color: $black;
   }
 }
 
 a {
   :hover {
-    color: $primaryCol;
+    color: $white;
+    background-color: $primaryCol;
   }
   :active {
-    color: $primaryCol;
-    background-color: $primaryCol;
+    color: $white;
+    background-color: $grey1;
   }
   :focus {
-    color: $primaryCol;
-    background-color: $primaryCol;
+    color: $white;
+    background-color: $black;
   }
 }

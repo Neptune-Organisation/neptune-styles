@@ -1,5 +1,5 @@
-@use "_colorCalculator" as *;
-@use "hue" as *;
+@use '_colorCalculator' as *;
+@use 'hue' as *;
 
 $black: hsl($hue, $sat, $lux);
 $grey1: hsl($hue, $sat, $lux1);

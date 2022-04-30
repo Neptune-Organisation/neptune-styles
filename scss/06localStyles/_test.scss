@@ -1,7 +1,5 @@
 .test{
     margin-top: 20vh;
-
-    &__subtitle{
-        margin: 10vh 0;
-    }
+    background-color: hsl(180, 100%, 50%);
+    outline: 5px solid red;
 }

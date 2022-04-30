@@ -1,9 +1,5 @@
 @use "../02atoms/atoms" as *;
 
-.article {
+article {
   margin: 5vh 0;
-
-  &__imageContainer{
-    @include medRoundContainer;
-  }
 }

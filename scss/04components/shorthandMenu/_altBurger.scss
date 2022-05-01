@@ -1,72 +1,67 @@
-@use "../../01subAtoms/subatoms" as *;
+@use '../../01subAtoms/subAtoms' as *;
 
 .altBurger {
-  &__rest {
+  &__container--rest {
+    width: fit-content;
+    outline: 1px solid red;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__up--rest {
+    @include shortLine;
+    background-color: $grey1;
+  }
+  &__med--rest {
+    display: none;
+  }
+  &__down--rest {
+    @include shortLine;
+    background-color: $grey1;
+  }
+  &__right--rest{
+    display: none
+  }
+  &__left--rest{
+    display: none
+  }
+  &__container--rest {
+    width: fit-content;
+  }
+
+  &__container--active {
+    width: fit-content;
+    outline: 1px solid red;
+    aspect-ratio: 1/1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  &__rest-line1 {
-    height: 5px;
-    width: 40px;
-    margin: 5px 0;
-    background-color: $primaryCol;
+  &__up--active {
+    @include shortLine;
+    background-color: $grey1;
+    transform: translate(50deg);
   }
 
-  &__rest-line2 {
-    height: 5px;
-    width: 40px;
-    margin: 5px 0;
-    background-color: $primaryCol;
+  &__med--active{
     display: none;
   }
-
-  &__rest-line3 {
-    height: 5px;
-    width: 40px;
-    margin: 5px 0;
-    background-color: $primaryCol;
+  &__down--active {
+    @include shortLine;
+    background-color: $grey1;
+    transform: translate(50deg);
   }
-
-  &__rest-navbar {
+  &__center--active {
     display: none;
   }
-
-  &__active {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  &__active-line1 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $primaryCol;
-    transform: translate(0px, 5px) rotate(45deg);
-  }
-
-  &__active-line2 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $primaryCol;
+  &__right--active {
     display: none;
   }
-
-  &__active-line3 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $primaryCol;
-    transform: translate(0px, 0px) rotate(-45deg);
-  }
-
-  &__active-navbar {
-    display: block;
-    margin-top: 3.5em;
+  &__left--active {
+    display: none;
   }
 }

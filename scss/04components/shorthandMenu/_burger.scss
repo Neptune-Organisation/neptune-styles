@@ -1,73 +1,63 @@
-@use "../../01subAtoms/subatoms" as *;
-
+@use '../../01subAtoms/subAtoms' as *;
 .burger {
-  &__rest {
+  &__container--rest {
+    width: fit-content;
+    outline: 1px solid red;
+    aspect-ratio: 1/1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: $primaryCol;
   }
-
-  &__rest-line1 {
-    height: 5px;
-    width: 40px;
-    margin: 5px 0;
-    background-color: $white;
+  &__up--rest {
+    @include shortLine;
+    background-color: $grey1;
   }
-
-  &__rest-line2 {
-    height: 5px;
-    width: 40px;
-    margin: 5px 0;
-    background-color: $white;
+  &__med--rest {
+    @include shortLine;
+    background-color: $grey1;
   }
-
-  &__rest-line3 {
-    height: 5px;
-    width: 40px;
-    margin: 5px 0;
-    background-color: $white;
+  &__down--rest {
+    @include shortLine;
+    background-color: $grey1;
   }
-
-  &__rest-navbar {
+  &__right--rest {
     display: none;
   }
+  &__left--rest {
+    display: none;
+  }
+  &__container--rest {
+    width: fit-content;
+  }
 
-  &__active {
+  &__container--active {
+    width: fit-content;
+    outline: 1px solid red;
+    aspect-ratio: 1/1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: $primaryCol;
   }
 
-  &__active-line1 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $white;
-    transform: translate(0px, 5px) rotate(45deg);
+  &__up--active {
+    @include shortLine;
+    background-color: $grey1;
+    transform: translate(50deg);
   }
-
-  &__active-line2 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $white;
+  &__down--active {
+    @include shortLine;
+    background-color: $grey1;
+    transform: translate(50deg);
+  }
+  &__center--active {
     display: none;
   }
-
-  &__active-line3 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $white;
-    transform: translate(0px, 0px) rotate(-45deg);
+  &__right--active {
+    display: none;
   }
-
-  &__active-navbar {
-    display: block;
-    margin-top: 3.5em;
+  &__left--active {
+    display: none;
   }
 }

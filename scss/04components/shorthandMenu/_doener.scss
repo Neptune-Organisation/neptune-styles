@@ -1,71 +1,71 @@
-@use "../../01subAtoms/subatoms" as *;
-
+@use '../../01subAtoms/subAtoms' as *;
 .doener {
-  &__rest {
+  &__container--rest {
+    width: fit-content;
+    outline: 1px solid red;
+    aspect-ratio: 1/1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
-  &__rest-line1 {
-    height: 5px;
-    width: 40px;
-    margin: 5px 0;
-    background-color: $primaryCol;
+  &__up--rest {
+    @include shortLine;
+    background-color: $grey1;
   }
-
-  &__rest-line2 {
-    height: 5px;
+  &__med--rest {
     width: 30px;
-    margin: 5px 0;
-    background-color: $primaryCol;
-  }
-
-  &__rest-line3 {
     height: 5px;
-    width: 20px;
-    margin: 5px 0;
-    background-color: $primaryCol;
+    margin: 5px;
+    background-color: $grey1;
   }
-
-  &__rest-navbar {
+  &__down--rest {
+    width: 20px;
+    height: 5px;
+    margin: 5px;
+    background-color: $grey1;
+  }
+  &__left--rest {
+    display: none;
+  }
+  &__right--rest {
     display: none;
   }
 
-  &__active {
+  &__container--active {
+    width: fit-content;
+    outline: 1px solid red;
+    aspect-ratio: 1/1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  &__active-line1 {
+  &__up--active {
+    width: 30px;
     height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $primaryCol;
-    transform: translate(0px, 5px) rotate(45deg);
+    margin: 5px;
+    background-color: $grey1;
   }
 
-  &__active-line2 {
+  &__med--active {
+    width: 30px;
     height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $primaryCol;
+    margin: 5px;
+    background-color: $grey1;
+  }
+
+  &__down--active {
     display: none;
   }
-
-  &__active-line3 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $primaryCol;
-    transform: translate(0px, 0px) rotate(-45deg);
+  &__right--active {
+    display: none;
   }
-
-  &__active-navbar {
-    display: block;
-    margin-top: 3.5em;
+  &__left--active {
+    display: none;
+  }
+  &__down--active {
+    display: none;
   }
 }

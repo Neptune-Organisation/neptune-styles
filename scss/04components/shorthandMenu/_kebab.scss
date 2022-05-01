@@ -1,70 +1,42 @@
-@use "../../01subAtoms/subatoms" as *;
-
+@use '../../01subAtoms/subAtoms' as *;
 .kebab {
-  &__rest {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  &__container--rest {
+    width: fit-content;
   }
-
-  &__rest-line1 {
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    background-color: $primaryCol;
-  }
-
-  &__rest-line2 {
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    background-color: $primaryCol;
-  }
-
-  &__rest-line3 {
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    background-color: $primaryCol;
-  }
-
-  &__rest-navbar {
+  &__right--rest {
     display: none;
   }
-
-  &__active {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  &__active-line1 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $primaryCol;
-    transform: translate(0px, 5px) rotate(45deg);
-  }
-
-  &__active-line2 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $primaryCol;
+  &__left--rest {
     display: none;
   }
-
-  &__active-line3 {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    background-color: $primaryCol;
-    transform: translate(0px, 0px) rotate(-45deg);
+  &__up--rest {
+    @include shortSquare;
+    background-color: $grey1;
+  }
+  &__med--rest {
+    @include shortSquare;
+    background-color: $grey1;
+  }
+  &__down--rest {
+    @include shortSquare;
+    background-color: $grey1;
   }
 
-  &__active-navbar {
-    display: block;
-    margin-top: 3.5em;
+
+  &__up--active {
+    display: none;
+  }
+  &__right--active {
+    display: none;
+  }
+  &__center--active {
+    @include shortSquare;
+    background-color: $grey1;
+  }
+  &__left--active {
+    display: none;
+  }
+  &__down--active {
+    display: none;
   }
 }

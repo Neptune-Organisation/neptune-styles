@@ -1,0 +1,55 @@
+@use "../01BasicDefinitions/basicDefinitions" as *;
+@use "../02ComplexDefinitions/complexDefinitions" as *;
+
+.card {
+  width: 70vw;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+  margin: 2vh 2vw;
+  @include borderThin;
+
+  &__rectangleImg {
+    max-width: 100%;
+    @include sixteenNine;
+    object-fit: cover;
+  }
+
+  &__roundImg {
+    @include cardRoundImg;
+    object-fit: cover;
+  }
+
+  &__text-contain {
+    padding: 1vh 1vw;
+  }
+
+  &__title {
+    font-size: $f4;
+    font-weight: 700;
+    color: $primaryCol;
+    margin: 0.5em auto;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: $f3;
+    color: $primaryCol;
+    margin: 1em 0;
+  }
+  
+  &__options {
+    display: flex;
+  }
+  
+  &__link {
+    margin: 0 2vw;
+  }
+  
+  &__centeredTxt{
+    text-align: center;
+  }
+}

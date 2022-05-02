@@ -1,9 +1,8 @@
-@use './001bigBang/bigBang';
-@use './01subAtoms/subAtoms';
-@use './02atoms/atoms';
-@use './04components/components';
-@use './05globalStyles/globalStyles';
-@use './06localStyles/localStyles';
-@use './07animations/animations';
-@use './08layouts/layouts';
-@use './09media/media';
+@use "./00Reset-Normalize/reset-normalize";
+@use "./01BasicDefinitions/basicDefinitions";
+@use "./02ComplexDefinitions/complexDefinitions";
+@use "./03GlobalStyles/globalStyles";
+@use "./04Components/components";
+@use "./05LocalStyles/localStyles";
+@use "./06Animations/animations";
+@use "./07MediaQueries/mediaQueries";

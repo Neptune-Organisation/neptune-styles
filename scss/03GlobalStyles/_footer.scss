@@ -1,0 +1,11 @@
+@use "../01BasicDefinitions/basicDefinitions" as *;
+
+footer {
+  position: fixed;
+  inset: auto 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5vh 5vw;
+  background-color: $grey1;
+}

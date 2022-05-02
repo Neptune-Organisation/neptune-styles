@@ -1,0 +1,19 @@
+@use "../01BasicDefinitions/basicDefinitions" as *;
+@use "../02ComplexDefinitions/complexDefinitions";
+@media screen and (min-width: 600px) {
+  .hero {
+    flex-direction: row;
+
+    &__img {
+      width: 50%;
+    }
+
+    &__text {
+      width: 50%;
+    }
+  }
+
+  .card {
+    width: 50vw;
+  }
+}

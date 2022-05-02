@@ -1,0 +1,14 @@
+@use "../../01BasicDefinitions/basicDefinitions" as *;
+.dropdown-menu {
+  width: fit-content;
+/*   display: flex;
+  flex-direction: row; */
+
+  &__select {
+    padding: 0;
+  }
+  
+  &__option {
+    padding: 0;
+  }
+}

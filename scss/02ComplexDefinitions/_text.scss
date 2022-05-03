@@ -99,6 +99,7 @@ li {
   @include p;
   text-decoration: none;
   background-color: transparent;
+  color: $primaryColMuted;
 }
 
 .button {

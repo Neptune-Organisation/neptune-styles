@@ -9,6 +9,7 @@
   transition: $transitionDuration;
   width: clamp(160px, 2vw ,200px);
   padding: 0.25em 0.5em;
+  background-color: $grey3;
   /* margin: 1em 0; */
   @include buttonBase;
   @include p;

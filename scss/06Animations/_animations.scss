@@ -1,32 +1,34 @@
 @use "../01BasicDefinitions/basicDefinitions" as *;
 
 .btn {
-  :hover {
+  transition: $transitionDuration;
+  &:hover {
     color: $white;
     background-color: $primaryCol;
   }
 
-  :active {
+  &:active {
     color: $white;
     background-color: $grey1;
   }
 
-  :focus {
+  &:focus {
     color: $white;
     background-color: $black;
   }
 }
 
 a {
-  :hover {
+  transition: $transitionDuration;
+  &:hover {
     color: $white;
     background-color: $primaryCol;
   }
-  :active {
+  &:active {
     color: $white;
     background-color: $grey1;
   }
-  :focus {
+  &:focus {
     color: $white;
     background-color: $black;
   }

@@ -1,13 +1,13 @@
 @use '_colorCalculator' as *;
 @use 'hue' as *;
 
-$black: hsl($hue, $sat, $lux);
-$grey1: hsl($hue, $sat, $lux1);
-$grey2: hsl($hue, $sat, $lux2);
-$grey3: hsl($hue, $sat, $lux3);
-$white: hsl($hue, $sat, 100%);
+$black: hsl($hue, 0%, $lux);
+$grey1: hsl($hue, 0%, $lux1);
+$grey2: hsl($hue, 0%, $lux2);
+$grey3: hsl($hue, 0%, $lux3);
+$white: hsl($hue, 0%, 100%);
 
-$primaryCol: hsl($hue, 0%, $lux2);
+$primaryCol: hsl($hue, $sat2, $lux2);
 $primaryColMuted: hsl($hue, $sat1, $lux2);
 $primaryColSat: hsl($hue, $sat3, $lux2);
 $primaryColLight: hsl($hue, $sat2, $lux3);

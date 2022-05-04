@@ -1,12 +1,16 @@
+@use "../01BasicDefinitions/basicDefinitions" as *;
 .iconSmall {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
+  color: $grey1;
 }
 .iconMed {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
+  color: $grey1;
 }
 .iconBig {
   width: 80px;
   height: 80px;
+  color: $grey1;
 }

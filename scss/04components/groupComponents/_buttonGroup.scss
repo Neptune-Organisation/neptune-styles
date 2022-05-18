@@ -1,0 +1,11 @@
+.button-group {
+  &__horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__vertical{
+      display: flex;
+      flex-direction: column;
+  }
+}

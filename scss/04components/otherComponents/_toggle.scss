@@ -1,6 +1,6 @@
-@use "../../01BasicDefinitions/basicDefinitions" as *;
+@use "../../01subAtoms/subAtoms" as *;
 
-.toggle-rest {
+.toggle__rest {
   height: 40px;
   width: 80px;
   border-radius: 20px;
@@ -18,7 +18,7 @@
   }
 }
 
-.toggle-active {
+.toggle__active {
   height: 40px;
   width: 80px;
   border-radius: 20px;

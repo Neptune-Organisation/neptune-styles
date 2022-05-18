@@ -1,11 +1,17 @@
-@use "../01BasicDefinitions/basicDefinitions" as *;
+@use "../01subAtoms/subAtoms" as *;
 
-header {
-  /* position: fixed;
-  inset: 0 0 auto 0; */
-  padding: 2.5vh 5vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header {
+  padding: 1.5vh 5vw;
   background-color: $grey3;
+  
+  &__up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title{
+    color: $primaryColDark;
+    font-size: $f4;
+  }
 }

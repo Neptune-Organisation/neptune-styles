@@ -1,0 +1,9 @@
+.range-picker{
+    display: grid;
+    place-content: center;
+    &__input{
+        display: grid;
+        place-content: center;
+        max-width: 50%;
+    }
+}

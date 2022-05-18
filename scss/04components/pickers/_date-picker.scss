@@ -1,0 +1,22 @@
+@use "../../01subAtoms/subAtoms" as *;
+
+.date-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+
+  &__input{
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+}
+
+.datepicker__text {
+  text-align: center;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}

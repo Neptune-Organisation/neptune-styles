@@ -31,8 +31,8 @@
     "type": "git",
     "url": "git+https://github.com/Neptune-Organisation/neptune-styles.git"
   },
-  "keywords": [],
-  "author": "albertleipzig <albertclemvill@gmail.com>",
+  "keywords": ["Neptune", "scss", "styles", "components"],
+  "author": "Albert Löwe",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/Neptune-Organisation/neptune-styles/issues"

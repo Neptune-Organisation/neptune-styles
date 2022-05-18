@@ -1,0 +1,10 @@
+$root-fontSize: 10px;
+/* 
+integrate this value in a system that includes:
+
+    root-size (= :root value)
+    root-fontSize
+    etc
+
+and that defines every size relation in the application
+*/

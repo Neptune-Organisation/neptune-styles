@@ -1,8 +1,9 @@
-@use "./00Reset-Normalize/reset-normalize";
-@use "./01BasicDefinitions/basicDefinitions";
-@use "./02ComplexDefinitions/complexDefinitions";
-@use "./03GlobalStyles/globalStyles";
+@use "./00bigBang/bigBang";
+@use "./01baseValues/baseValues";
+@use "./02compoundValues/compoundValues";
+@use "./03globalStyles/globalStyles";
 @use "./04Components/components";
 @use "./05LocalStyles/localStyles";
 @use "./06Animations/animations";
 @use "./07MediaQueries/mediaQueries";
+@use "./test"

@@ -1,0 +1,36 @@
+@use "../01subAtoms/subAtoms" as *;
+
+/* SIZE */
+
+$containerSmall: clamp(30px, 20vw, 80px);
+$containerThird: clamp(42px, 30vw, 150px);
+$containerMed: clamp(58px, 40vw, 250px);
+$containerHalf: clamp(70px, 50vw, 350px);
+$containerBig: clamp(100px, 80vw, 500px);
+$containerFull: 100vw;
+
+/* ASPECT RATIO */
+
+@mixin square {
+  aspect-ratio: 1 / 1;
+}
+
+@mixin fourThree {
+  aspect-ratio: 4 / 3;
+}
+
+@mixin threeFour {
+  aspect-ratio: 3 / 4;
+}
+
+@mixin sixteenNine {
+  aspect-ratio: 16 / 9;
+}
+
+@mixin nineSixteen {
+  aspect-ratio: 9 / 16;
+}
+
+/* CONTENT */
+
+$fit: cover;

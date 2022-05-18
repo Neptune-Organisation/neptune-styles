@@ -1,0 +1,89 @@
+@use "../../01subAtoms/subatoms" as *;
+
+.bento {
+  &__rest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__rest-group1 {
+    display: flex;
+    margin: 5px 0;
+  }
+  &__rest-group2 {
+    display: flex;
+    margin: 5px 0;
+  }
+  &__rest-group3 {
+    display: flex;
+    margin: 5px 0;
+  }
+
+  &__rest-line1 {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: $primaryCol;
+  }
+
+  &__rest-line2 {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: $primaryCol;
+  }
+
+  &__rest-line3 {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: $primaryCol;
+  }
+
+  &__rest-navbar {
+    display: none;
+  }
+
+  &__active-group2 {
+    display: none;
+  }
+
+  &__active-group3 {
+    display: none;
+  }
+
+  &__active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__active-line1 {
+    height: 5px;
+    width: 40px;
+    background-color: $primaryCol;
+    transform: translate(0px, 5px) rotate(45deg);
+  }
+
+  &__active-line2 {
+    height: 5px;
+    width: 40px;
+    background-color: $primaryCol;
+    display: none;
+  }
+
+  &__active-line3 {
+    height: 5px;
+    width: 40px;
+    background-color: $primaryCol;
+    transform: translate(0px, 0px) rotate(-45deg);
+  }
+
+  &__active-navbar {
+    display: block;
+    margin-top: 3.5em;
+  }
+}

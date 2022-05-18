@@ -1,0 +1,33 @@
+@use '../../01subAtoms/subAtoms' as *;
+
+.form {
+  padding: 0 5vw;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    margin-bottom: 1.5em;
+  }
+
+  &__btn {
+    margin-top: 5vh;
+  }
+
+  &__input {
+    @include borderThin;
+    margin: 0.5em 2.5em;
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

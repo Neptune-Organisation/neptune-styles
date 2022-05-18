@@ -1,0 +1,23 @@
+@use "../../01subAtoms/subatoms" as *;
+
+.goto {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    background-color: $primaryCol;
+    border-radius: 20px;
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  &__point {
+    height: 30px;
+    display: block;
+  }
+
+  &__point-central {
+    display: block;
+    height: 30px;
+    margin: 20px 0;
+  }
+}

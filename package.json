@@ -1,6 +1,6 @@
 {
   "name": "neptune-styles",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "scss-library for Neptune",
   "main": "index.js",
   "dependencies": {
